@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding: 50px;
+    background-color: #fd9494;
+    padding-top: 100px;
+}
+h5{}
+h6{}
+p{
+    font-size: 15px;
+    color: #211f1f;
+    font-weight: 100;
+    margin-top: 25px;
+    line-height: 1.5;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.btn-custom{
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #333333;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+header{
+    background: #DDC3AC;
+}
+nav{}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    padding: 10px 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+nav ul li a h1{}
+
+
+.content{
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 20px;
+    width: 30%;
+    margin: 250px auto;
+    padding: 20px;
+}
+.content h2{
+    font-size: 30px;
+}
+.content .button-custom{
+        font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #333333;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.yoga-section{
+    overflow: hidden;
+}
+.yoga-bg{
+    width: 50%;
+    background-image: url(../images/jonathan-borba-1339324-unsplash.jpg);
+    float: left;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yoga-content .content{
+    width: 50%;
+    
+    float: left;
+}
+
+.yoga-section .content{
+    margin-left: 0;
+}
+
+.blog-section{
+    width: 100%;
+    background-color: #F0F0F0;
+    overflow: hidden;
+}
+.blog-section .content{}
+.button-custom{
+        font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #333333;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.Summer-section{
+    background-color: white;
+}
+.Summer-bg{
+    width: 50%;
+    background-image: url(../images/beto-galetto-hn1zeipj0qc-unsplash.jpg);
+    float: left;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Summer-section .content{
+     width: 50%;
+    
+    float: left;
+}
+.About-section{
+}
+.About-bg{
+    width: 50%;
+    background-image: url(../images/jonathan-borba-1339324-unsplash.jpg);
+    float: right;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.About-section .content{
+    width: 50%;
+    
+    float: right;
+}
+
+.freeyoga{
+    
+background-color: #e86d6d;
+    
+text-align: center;
+    
+padding: 130px;
+}
+
+footer{}
+.img-container{
+        width: 100%;
+        background-color: #ccc;
+        height: 400px;
+        padding-top: 1px;
+        text-align: center;
+}
+.boximage{
+        width: 110px;
+        padding: 10px;
+        padding-top: 90px;
+        display: inline-block;
+}
+
+.socialicon-container{
+}
+.socialicon-container ol{
+
+}
+.socialicon-container ol li{
+    display: inline-block;
+}
+.socialicon-container ol li a{
+    padding: 10px;
+}
+
+.social-container{
+    width: 100%;
+    float: left;
+}
+.social-container ol{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    padding: 20px;
+}
+.social-container ol li{}
+.social-container ol li a{}
+
